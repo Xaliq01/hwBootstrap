@@ -1,0 +1,236 @@
+
+.r_pic{
+    width: 100%;
+    min-height: 775px;
+    /* background-color: blueviolet; */
+    float: left;
+    /* position: relative; */
+    background-image: url(../img/Screenshot_52.png);
+}
+.r_nav{
+    width: 100%;
+    min-height: 175px;
+    /* background-color:black; */
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.r_mainPic{
+    width: 100%;
+    min-height:600px;
+    float: left;
+    /* background-color: yellow; */
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.r_services{
+    width: 100%;
+    min-height: 450px;
+    /* background-color: aqua; */
+    float: left;
+}
+.r_portfolio{
+    width: 100%;
+    min-height: 550px;
+    float: left;
+    background-color: #F8F9FA;
+
+}
+.Start{
+    width: 300px;
+    min-height: inherit;
+    float: left;
+    /* background-color: red; */
+    font-family: cursive; 
+    /* object-fit: cover;
+    /* background-image:url('../img/Screenshot_45.png');
+    background-size: cover;
+    background-size: 250px;
+    background-repeat: no-repeat; */
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.r_Menu{
+    width: 700px;
+    min-height: inherit;
+    float: left;
+    /* background-color: green; */
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+/* .Start img{
+    width: 200px;
+    height: 95px;
+    
+} */
+.r_Menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.r_Menu ul li{
+    float: left;
+
+}
+.r_Menu ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 50px 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.r_Menu ul li a:hover{
+    color: #F1C505;
+}
+.Start h2 a{
+    color:#FED136 ;
+    text-decoration: none;
+}
+.Welcome{
+    width: 500px;
+    min-height: 150px;
+    float: left;
+    /* background-color: darkgrey; */
+    text-transform: capitalize;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.itsNice{
+    width: 800px;
+    min-height: 225px;
+    float: left;
+    /* background-color: burlywood; */
+    /* margin: 0 0 0 150px; */
+    text-transform: uppercase;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    color: white;
+}
+
+.r_mainPic button{
+    width: 225px;
+    min-height: 75px;
+    background-color: #FDC600;
+}
+.r_mainPic button b{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.r_h2{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.minLor{
+    width: 100%;
+    min-height: 70px;
+    float: left;
+    /* background-color: palevioletred; */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.text{
+    width: 33%;
+    min-height: inherit;
+    float: left;
+    /* background-color: cadetblue; */
+    margin-right: 4px;
+}
+.r_glavIc{
+    width: 100%;
+    min-height: 150px;
+    float: left;
+    /* background-color: darkblue; */
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oglav{
+    width: 100%;
+    min-height: 75px;
+    float: left;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.r_minText{
+    width: 100%;
+    min-height:225px ;
+    float: left;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 60px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.r_picMini{
+    width: 28%;
+    min-height: 250px;
+    float: left;
+    /* background-color: violet; */
+    margin:30px 15px 30px 85px  ;
+}
+.mar0{
+    margin-left:0px ;
+}
+.top_pic{
+    width: 100%;
+    min-height: 160px;
+    float: left;
+    /* background-color: blanchedalmond; */
+}
+.minOglav{
+    width: 100%;
+    min-height: 50px;
+    /* background-color: forestgreen; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maliyText{
+    width: 100%;
+    min-height: 40px;
+    float: left;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gainsboro;
+}
+.top_pic img{
+    width: 353px;
+    height: 230px;
+    /* object-fit: cover; */
+    overflow: hidden;
+}
